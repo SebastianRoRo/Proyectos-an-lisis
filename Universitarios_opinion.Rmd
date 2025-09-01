@@ -21,7 +21,8 @@ library(gridExtra)
 ```
 
 ```{r Datos, include= FALSE}
-mtr <- read.csv("C:/Users/sebro/Downloads/Preg5.csv")
+url <- read.csv("https://github.com/SebastianRoRo/Proyectos-an-lisis/blob/main/CollegeData.csv")
+mtr <- readr::read_csv(url)
 head(mtr)
 summary(mtr)
 ```
@@ -366,5 +367,6 @@ summary(glht(mtr_sipr, linfct = k, rhs = m), test =Chisqtest())
 Podemos ver que, tanto para aquellos que estuvieron en escuela pública como en escuela privada donde en ningún caso alguno de sus padres cursó algún posgrado, sus hijos no tienen tanto interés en cursar alguno, pues podríamos atribuirlo a que como sus padres no tienen, a ellos no les parecerá tan importante, por lo que es significativo tomar en cuenta si los padres tomaron algún posgrado.
 
 Por otro lado, vemos que aquellos estudiantes cuyos padres cursaron algún tipo de posgrado (tanto para aquellos de escuelas privadas como para los de pública), tienen un mayor interés en cursar un posgrado, posiblemente se deba a que como sus padres cursaron alguno, al llegar a esta etapa les habrán inculcado la importancia y relevancia de cursar uno.
+
 
 Y finalmente, podemos ver que, en cuanto mejor rendimiento tenga el estudiante, más probable es que quiera cursar algún posgrado. Para todos los casos podemos ver que el tipo de escuela es un aspecto que no tiene tanta relevancia como los otros casos que mencionamos.
