@@ -1,4 +1,4 @@
-# Proyectos-análisis
+# Proyectos análisis de datos.
 En este repositorio se encuentran los proyectos con los cuales he implementado mis conocimientos acerca de estadística y análisis de datos.
   - **Análisis estadístico a la incidencia de cáncer de pulmón.**
     * [Ver código][https://github.com/SebastianRoRo/Proyectos-analisis/blob/main/Incidencia_cancer.Rmd]
