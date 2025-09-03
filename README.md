@@ -6,3 +6,6 @@ En este repositorio se encuentran los proyectos con los cuales he implementado m
   - **Análisis estadístico sobre la opinión de universitarios sobre una maestría/dosctorado.**
     * [Ver código][https://github.com/SebastianRoRo/Proyectos-analisis/blob/main/Universitarios_opinion2.Rmd]
     * [Ver HTML][https://sebastianroro.github.io/Proyectos-analisis//Universitarios_opinion2.html]
+  - **Análisis acerca de insecticidas**
+    * [Ver código][https://github.com/SebastianRoRo/Proyectos-analisis/blob/main/Insecticidas.Rmd]
+    * [Ver HTML][https://sebastianroro.github.io/Proyectos-analisis//Insecticidas.html]
